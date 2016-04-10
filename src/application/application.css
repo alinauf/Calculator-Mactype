@@ -1,0 +1,57 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+
+.button{
+		-fx-text-fill: #000000;
+		 	-fx-font-size: 21px;
+	 	-fx-font-family: "Helvetica Neue Light";
+	
+	-fx-background-color: #E0E0E0;
+	-fx-background-radius: 0px;
+	
+	-fx-border-color: rgb(142,142,142);
+	-fx-border-width: 0.3px; /* for border line */
+	
+	
+	}
+
+.button:pressed{
+			-fx-background-color: rgba(178, 178, 178);	
+}
+
+.display{
+	-fx-text-fill: #FFFFFF;
+	-fx-font-size: 46px;
+		-fx-background-color: rgba(41, 41, 41);
+		 	-fx-font-family: "Helvetica Neue UltraLight";
+	
+	
+}
+
+.label{
+	
+	
+}
+
+.operators{
+		-fx-text-fill: #FFFFFF;
+		-fx-background-color: #F5923E;
+}
+.operators:pressed{
+		-fx-background-color: rgba(202, 116, 49);
+}
+
+.manageBtn{
+			-fx-text-fill: #000000;
+			 	-fx-font-size: 20px;
+	
+	-fx-background-color: #D4D4D4
+}
+
+.manageBtn:pressed{				
+		-fx-background-color: rgba(169, 169, 169);
+}
+
+.manageBtn{
+	
+		-fx-background-color: rgba(178, 178, 178);
+}
